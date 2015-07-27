@@ -8,7 +8,7 @@
 
 LIBNAME WK17 '/folders/myshortcuts/myfolder/SSCode/20150724/Datasets';
 
-
+/** Testing the Validation Sample Dataset with the Model created in the previous step **/
 PROC SCORE
 	DATA=WK17.VALIDATION_SAMPLE
 	SCORE=WK17.HANDLE_LINEAR_MODEL
@@ -189,4 +189,18 @@ PROC SCORE
 		race_weekday_Thu
 		race_weekday_Fri
 		race_weekday_Sat;
+RUN;
+
+
+/** To calculate the difference between the handle and the predicted handle value **/
+DATA WK17.VALIDATION_PRED_DIFF;
+	SET WK17.VALIDATION_SAMPLE_PRED(KEEP=handle MODEL1);
+	Diff = handle - MODEL1;
+RUN;
+
+/** Printing the difference between the handle and the predicted handle value **/
+PROC PRINT
+	DATA=WK17.VALIDATION_PRED_DIFF;
+	SUM Diff;
+	TITLE1 "Printing the difference between the handle and the predicted handle value";
 RUN;
