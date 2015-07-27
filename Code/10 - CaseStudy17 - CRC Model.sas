@@ -51,8 +51,6 @@ PROC REG
 			age_restriction_02
 			age_restriction_34
 			age_restriction_03
-			age_restriction_35
-			age_restriction_45
 			age_restriction_4U
 			
 			sex_restriction_B
@@ -71,7 +69,6 @@ PROC REG
 			distance_id_832 
 			distance_id_450 
 			distance_id_750 
-			distance_id_818 
 			distance_id_1200
 			distance_id_1000
 			distance_id_200 
@@ -91,14 +88,11 @@ PROC REG
 			track_condition_SY
 			track_condition_GD
 			track_condition_YL
-			track_condition_MY
-			track_condition_SF
 			track_condition_WF
 			
 			weather_C
 			weather_L
 			weather_O
-			weather_H
 			weather_R
 			
 			minimum_claim_price___0
@@ -111,18 +105,11 @@ PROC REG
 			minimum_claim_price_50K
 			minimum_claim_price__5K
 			minimum_claim_price_32K
-			minimum_claim_price_30K
-			minimum_claim_price_15K
 			minimum_claim_price__9K
 			minimum_claim_price__8K
 			minimum_claim_price_62K
-			minimum_claim_price__7K
 			minimum_claim_price__6K
-			minimum_claim_price_17K
-			minimum_claim_price__4K
-			minimum_claim_price_18K
 			
-			maximum_claim_price_100K
 			maximum_claim_price____0
 			maximum_claim_price__10K
 			maximum_claim_price__25K
@@ -133,23 +120,12 @@ PROC REG
 			maximum_claim_price___5K
 			maximum_claim_price__20K
 			maximum_claim_price__32K
-			maximum_claim_price__15K
-			maximum_claim_price__35K
-			maximum_claim_price__30K
 			maximum_claim_price___8K
-			maximum_claim_price__17K
-			maximum_claim_price__62K
-			maximum_claim_price___6K
-			maximum_claim_price__18K
-			maximum_claim_price__14K
-			maximum_claim_price__13K
-			maximum_claim_price__80K
 			
 			grade_1
 			grade_2
 			grade_3
 			
-			number_of_runners__3
 			number_of_runners__4
 			number_of_runners__5
 			number_of_runners__6
@@ -165,10 +141,6 @@ PROC REG
 			track_sealed_indicator_Y
 			track_sealed_indicator_N
 			
-			race_date_Super_Bowl  
-			race_date_Patricks_day
-			race_date_Good_Friday 
-			race_date_Easter      
 			race_date_Cinco_Mayo  
 			race_date_Memorial_Day
 			race_date_Indep_Day   
