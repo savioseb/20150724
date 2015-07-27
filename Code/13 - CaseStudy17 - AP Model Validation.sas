@@ -1,19 +1,21 @@
 /***********************************************
 /* FINAL CASE STUDY - HORSE RACING
 /* Recommendations to a client on how to maximize handle
-/* STEP 9: Preparing the AP Track Model with the Development Dataset
+/* STEP 10: Validating the AP Track Model
 /* -----------------------------------------------------------
 /***********************************************/
 
+
 LIBNAME WK17 '/folders/myshortcuts/myfolder/SSCode/20150724/Datasets';
 
-/** Creating the AP Track Model **/
-PROC REG 
-	DATA=WK17.AP_DEVELOPMENT_SAMPLE 
-	OUTEST=WK17.AP_HANDLE_LINEAR_MODEL; 
-  	AP_TRACK: MODEL 
-  		 handle = 
-			wps_pool
+/** Testing the Validation Sample Dataset with the AP Track Model created in the previous step **/
+PROC SCORE
+	DATA=WK17.AP_VALIDATION_SAMPLE
+	SCORE=WK17.AP_HANDLE_LINEAR_MODEL
+	PREDICT OUT=WK17.AP_VALIDATION_SAMPLE_PRED
+	TYPE=parms;
+	VAR
+		wps_pool
 			total_pool_sum
 			
 			race_number_1 
@@ -152,10 +154,18 @@ PROC REG
 			race_weekday_Thu
 			race_weekday_Fri
 			race_weekday_Sat;
-  	OUTPUT 
-  		OUT = WK17.AP_DEVELOPMENT_SAMPLE_PRED 
-  		PREDICTED = handle_predicted
-  		RESIDUAL = handle_residuals;
- 
-  	TITLE1 "Linear Model using Development Dataset";
+RUN;
+
+
+/** To calculate the difference between the handle and the predicted handle value **/
+DATA WK17.AP_VALIDATION_PRED_DIFF;
+	SET WK17.AP_VALIDATION_SAMPLE_PRED(KEEP=handle AP_TRACK);
+	Diff = handle - AP_TRACK;
+RUN;
+
+/** Printing the difference between the handle and the predicted handle value **/
+PROC PRINT
+	DATA=WK17.AP_VALIDATION_PRED_DIFF;
+	SUM Diff;
+	TITLE1 "Printing the difference between the handle and the predicted handle value";
 RUN;
