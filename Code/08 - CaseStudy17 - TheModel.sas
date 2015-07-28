@@ -29,15 +29,7 @@ PROC REG
 			race_number_11
 			race_number_12
 			race_number_13
-			
-			conditions_of_race_NW2_L
-			conditions_of_race_NW1_X
-			conditions_of_race_NW2_X
-			conditions_of_race_NW3_L
-			conditions_of_race_C    
-			conditions_of_race_NW3_X
-			conditions_of_race_OTHER
-			
+						
 			race_type_CLM
 			race_type_MCL
 			race_type_MSW
