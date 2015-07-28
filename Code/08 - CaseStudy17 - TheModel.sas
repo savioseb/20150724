@@ -85,7 +85,6 @@ PROC REG
 			purse_usa_30K
 			purse_usa_40K
 			purse_usa_100K
-			purse_usa_MT_100K
 			
 			track_condition_FT
 			track_condition_FM
@@ -101,7 +100,6 @@ PROC REG
 			weather_O
 			weather_H
 			weather_R
-			weather_F
 			
 			minimum_claim_price___0
 			minimum_claim_price_10K
@@ -142,8 +140,6 @@ PROC REG
 			maximum_claim_price__17K
 			maximum_claim_price__62K
 			maximum_claim_price___6K
-			maximum_claim_price___7K
-			maximum_claim_price___4K
 			maximum_claim_price__18K
 			maximum_claim_price__14K
 			maximum_claim_price__13K
@@ -153,7 +149,6 @@ PROC REG
 			grade_2
 			grade_3
 			
-			number_of_runners__0
 			number_of_runners__3
 			number_of_runners__4
 			number_of_runners__5
