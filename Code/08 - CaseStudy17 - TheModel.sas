@@ -122,29 +122,6 @@ PROC REG
 			minimum_claim_price__4K
 			minimum_claim_price_18K
 			
-			maximum_claim_price_100K
-			maximum_claim_price____0
-			maximum_claim_price__10K
-			maximum_claim_price__25K
-			maximum_claim_price__16K
-			maximum_claim_price__12K
-			maximum_claim_price__40K
-			maximum_claim_price__50K
-			maximum_claim_price___5K
-			maximum_claim_price__20K
-			maximum_claim_price__32K
-			maximum_claim_price__15K
-			maximum_claim_price__35K
-			maximum_claim_price__30K
-			maximum_claim_price___8K
-			maximum_claim_price__17K
-			maximum_claim_price__62K
-			maximum_claim_price___6K
-			maximum_claim_price__18K
-			maximum_claim_price__14K
-			maximum_claim_price__13K
-			maximum_claim_price__80K
-			
 			grade_1
 			grade_2
 			grade_3
