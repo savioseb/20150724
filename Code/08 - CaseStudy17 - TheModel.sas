@@ -78,20 +78,12 @@ PROC REG
 							
 			minimum_claim_price___0
 			minimum_claim_price_10K
-			minimum_claim_price_16K
-			minimum_claim_price_25K
-			minimum_claim_price_12K
-			minimum_claim_price_40K
-			minimum_claim_price_20K
-			minimum_claim_price_50K
 			minimum_claim_price__5K
 			minimum_claim_price_30K
 			minimum_claim_price_15K
 			minimum_claim_price__9K
 			minimum_claim_price_62K
 			minimum_claim_price__7K
-			minimum_claim_price__6K
-			minimum_claim_price_17K
 			minimum_claim_price__4K
 			
 			grade_1
@@ -116,7 +108,6 @@ PROC REG
 			
 			race_date_Super_Bowl  
 			race_date_Patricks_day
-			race_date_Good_Friday 
 			race_date_Easter      
 			race_date_Cinco_Mayo  
 			race_date_Memorial_Day
