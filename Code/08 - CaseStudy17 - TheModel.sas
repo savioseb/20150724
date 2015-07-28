@@ -33,7 +33,6 @@ PROC REG
 			race_type_MCL
 			race_type_MSW
 			race_type_AOC
-			race_type_ALW
 			race_type_STK
 			race_type_CAN
 			
@@ -43,12 +42,9 @@ PROC REG
 			age_restriction_03
 			age_restriction_35
 			age_restriction_45
-			age_restriction_4U
 			
 			sex_restriction_B
 			sex_restriction_F
-			
-			stakes_indicator_N
 			
 			distance_id_600 
 			distance_id_800 
@@ -79,11 +75,7 @@ PROC REG
 			minimum_claim_price___0
 			minimum_claim_price_10K
 			minimum_claim_price__5K
-			minimum_claim_price_30K
-			minimum_claim_price_15K
-			minimum_claim_price__9K
 			minimum_claim_price_62K
-			minimum_claim_price__7K
 			minimum_claim_price__4K
 			
 			grade_1
@@ -108,8 +100,6 @@ PROC REG
 			
 			race_date_Super_Bowl  
 			race_date_Patricks_day
-			race_date_Easter      
-			race_date_Cinco_Mayo  
 			race_date_Memorial_Day
 			race_date_Indep_Day   
 			race_date_Labor_Day   

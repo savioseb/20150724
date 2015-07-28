@@ -10,7 +10,7 @@ LIBNAME WK17 '/folders/myshortcuts/myfolder/SSCode/20150724/Datasets';
 
 
 
-
+/** Executing PROC FREQ to check if all the dummy variables have been assigned correctly **/
 PROC FREQ
 	DATA=WK17.RACE_EXOTIC_PAYOFF_MERGE;
 	TABLE
@@ -217,4 +217,28 @@ PROC FREQ
 		
 		
 		;
+		
+	TITLE1 "Executing PROC FREQ to check if all the dummy variables have been assigned correctly";
 RUN;
+
+
+/** PROC FREQ to understand the influcence of Holidays in the Racing Scene **/
+PROC FREQ
+	DATA=WK17.RACE_EXOTIC_PAYOFF_MERGE;
+	TABLE
+		race_date_Super_Bowl  
+		race_date_Patricks_day
+		race_date_Good_Friday 
+		race_date_Easter      
+		race_date_Cinco_Mayo  
+		race_date_Memorial_Day
+		race_date_Indep_Day   
+		race_date_Labor_Day   
+		race_date_Veterans_Day
+		race_date_Thanksgiving 
+		race_date_Boxing_Day  
+		race_date_New_Year_Day;
+	TITLE1 "PROC FREQ to understand the influcence of Holidays in the Racing Scene";
+RUN;
+
+
