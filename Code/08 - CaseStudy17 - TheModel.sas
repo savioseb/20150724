@@ -86,13 +86,7 @@ PROC REG
 			track_condition_MY
 			track_condition_SF
 			track_condition_WF
-			
-			weather_C
-			weather_L
-			weather_O
-			weather_H
-			weather_R
-			
+						
 			minimum_claim_price___0
 			minimum_claim_price_10K
 			minimum_claim_price_16K
