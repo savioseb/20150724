@@ -77,16 +77,7 @@ PROC REG
 			purse_usa_30K
 			purse_usa_40K
 			purse_usa_100K
-			
-			track_condition_FT
-			track_condition_FM
-			track_condition_SY
-			track_condition_GD
-			track_condition_YL
-			track_condition_MY
-			track_condition_SF
-			track_condition_WF
-						
+							
 			minimum_claim_price___0
 			minimum_claim_price_10K
 			minimum_claim_price_16K
