@@ -91,7 +91,6 @@ PROC REG
 			minimum_claim_price_30K
 			minimum_claim_price_15K
 			minimum_claim_price__9K
-			minimum_claim_price__8K
 			minimum_claim_price_62K
 			minimum_claim_price__7K
 			minimum_claim_price__6K
