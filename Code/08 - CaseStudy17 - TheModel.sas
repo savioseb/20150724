@@ -40,7 +40,6 @@ PROC REG
 			age_restriction_02
 			age_restriction_34
 			age_restriction_03
-			age_restriction_35
 			age_restriction_45
 			
 			sex_restriction_B
@@ -63,8 +62,6 @@ PROC REG
 			distance_id_200 
 			distance_id_950 
 			
-			about_distance_indicator_A
-			
 			course_type_T
 			
 			purse_usa_25K
@@ -75,7 +72,6 @@ PROC REG
 			minimum_claim_price___0
 			minimum_claim_price_10K
 			minimum_claim_price__5K
-			minimum_claim_price_62K
 			minimum_claim_price__4K
 			
 			grade_1
@@ -101,8 +97,6 @@ PROC REG
 			race_date_Super_Bowl  
 			race_date_Patricks_day
 			race_date_Memorial_Day
-			race_date_Indep_Day   
-			race_date_Labor_Day   
 			race_date_Veterans_Day
 			race_date_Thanksgiving
 			race_date_Boxing_Day  
