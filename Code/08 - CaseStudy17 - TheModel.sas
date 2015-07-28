@@ -16,7 +16,6 @@ PROC REG
 			track_id_AP  
 			track_id_CRC 
 			
-			race_number_1 
 			race_number_2 
 			race_number_3 
 			race_number_4 
@@ -36,7 +35,6 @@ PROC REG
 			race_type_AOC
 			race_type_ALW
 			race_type_STK
-			race_type_STR
 			race_type_CAN
 			
 			age_restriction_3U
@@ -87,7 +85,6 @@ PROC REG
 			minimum_claim_price_20K
 			minimum_claim_price_50K
 			minimum_claim_price__5K
-			minimum_claim_price_32K
 			minimum_claim_price_30K
 			minimum_claim_price_15K
 			minimum_claim_price__9K
@@ -96,7 +93,6 @@ PROC REG
 			minimum_claim_price__6K
 			minimum_claim_price_17K
 			minimum_claim_price__4K
-			minimum_claim_price_18K
 			
 			grade_1
 			grade_2
