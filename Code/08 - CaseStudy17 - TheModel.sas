@@ -12,10 +12,7 @@ PROC REG
 	DATA=WK17.DEVELOPMENT_SAMPLE 
 	OUTEST=WK17.HANDLE_LINEAR_MODEL; 
   	MODEL 
-  		 handle = 
-			wps_pool
-			total_pool_sum
-			
+  		 handle = 			
 			track_id_AP  
 			track_id_CRC 
 			
@@ -84,6 +81,7 @@ PROC REG
 			
 			course_type_T
 			
+			purse_usa_25K
 			purse_usa_30K
 			purse_usa_40K
 			purse_usa_100K
@@ -103,6 +101,7 @@ PROC REG
 			weather_O
 			weather_H
 			weather_R
+			weather_F
 			
 			minimum_claim_price___0
 			minimum_claim_price_10K
@@ -143,6 +142,8 @@ PROC REG
 			maximum_claim_price__17K
 			maximum_claim_price__62K
 			maximum_claim_price___6K
+			maximum_claim_price___7K
+			maximum_claim_price___4K
 			maximum_claim_price__18K
 			maximum_claim_price__14K
 			maximum_claim_price__13K
@@ -152,6 +153,7 @@ PROC REG
 			grade_2
 			grade_3
 			
+			number_of_runners__0
 			number_of_runners__3
 			number_of_runners__4
 			number_of_runners__5
@@ -177,7 +179,7 @@ PROC REG
 			race_date_Indep_Day   
 			race_date_Labor_Day   
 			race_date_Veterans_Day
-			race_date_Thanksgiving 
+			race_date_Thanksgiving
 			race_date_Boxing_Day  
 			race_date_New_Year_Day
 			
