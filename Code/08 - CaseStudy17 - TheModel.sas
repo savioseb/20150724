@@ -37,10 +37,7 @@ PROC REG
 			race_type_CAN
 			
 			age_restriction_3U
-			age_restriction_02
 			age_restriction_34
-			age_restriction_03
-			age_restriction_45
 			
 			sex_restriction_B
 			sex_restriction_F
@@ -97,7 +94,6 @@ PROC REG
 			race_date_Super_Bowl  
 			race_date_Patricks_day
 			race_date_Memorial_Day
-			race_date_Veterans_Day
 			race_date_Thanksgiving
 			race_date_Boxing_Day  
 			race_date_New_Year_Day
